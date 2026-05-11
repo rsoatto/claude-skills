@@ -11,7 +11,7 @@ Personal Claude Code plugin: extra coding principles plus a meta-skill that bund
 
 ```bash
 # In Claude Code:
-/plugin marketplace add <your-git-url-or-github-shortname>
+/plugin marketplace add rsoatto/claude-skills
 /plugin install rsoatto-skills@rsoatto-skills
 /reload-plugins
 ```
