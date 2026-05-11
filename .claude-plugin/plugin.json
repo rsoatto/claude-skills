@@ -1,0 +1,15 @@
+{
+  "name": "rsoatto-skills",
+  "description": "Personal coding principles for Claude Code. Includes additional-coding-principles (extends karpathy-guidelines) and a coding-principles meta-skill that loads both sets together.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Renzo Soatto",
+    "email": "soatto@mit.edu"
+  },
+  "license": "MIT",
+  "keywords": ["guidelines", "principles", "coding", "best-practices"],
+  "skills": [
+    "./skills/additional-coding-principles",
+    "./skills/coding-principles"
+  ]
+}

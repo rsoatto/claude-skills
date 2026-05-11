@@ -1,0 +1,30 @@
+{
+  "name": "rsoatto-skills",
+  "id": "rsoatto-skills",
+  "owner": {
+    "name": "Renzo Soatto",
+    "email": "soatto@mit.edu"
+  },
+  "metadata": {
+    "description": "Personal Claude Code skills: additional coding principles and a meta-skill that bundles them with andrej-karpathy-skills.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "rsoatto-skills",
+      "source": "./",
+      "description": "Additional coding principles plus a meta-skill that invokes both rsoatto and karpathy guidelines together.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Renzo Soatto"
+      },
+      "keywords": [
+        "guidelines",
+        "principles",
+        "coding",
+        "best-practices"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
