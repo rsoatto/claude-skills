@@ -10,13 +10,15 @@ These extend `andrej-karpathy-skills:karpathy-guidelines`. Both skills should be
 
 **Bias:** caution over speed on non-trivial work; use judgment on trivial tasks.
 
-## Don't re-implement what already exists
+## Look for an existing method first; don't re-implement
 
-Before writing a new function, method, or helper, check whether it already exists — in this
-codebase, its dependencies, or the standard library. Search first; grep for the behavior, read the
-shared utilities. Re-implementation duplicates bugs already fixed elsewhere, drifts from the
-original, and doubles maintenance. Only re-implement with a very good reason (the existing one is
-wrong, deprecated, or a dependency you must not take) — and state that reason where you do it.
+Whenever you need some functionality, the FIRST move is to look for an existing method that
+provides it — in this codebase, its dependencies, or the standard library — not to start writing
+one. Grep for the behavior, read the shared utilities and the modules you're touching; make this
+the default reflex for any non-trivial piece of logic. If it exists, use it. Re-implementation
+duplicates bugs already fixed elsewhere, drifts from the original, and doubles maintenance. Only
+re-implement with a very good reason (the existing one is wrong, deprecated, or a dependency you
+must not take) — and state that reason where you do it.
 
 ## Use code, not the model, when code suffices
 
