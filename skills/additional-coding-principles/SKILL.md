@@ -10,6 +10,14 @@ These extend `andrej-karpathy-skills:karpathy-guidelines`. Both skills should be
 
 **Bias:** caution over speed on non-trivial work; use judgment on trivial tasks.
 
+## Don't re-implement what already exists
+
+Before writing a new function, method, or helper, check whether it already exists — in this
+codebase, its dependencies, or the standard library. Search first; grep for the behavior, read the
+shared utilities. Re-implementation duplicates bugs already fixed elsewhere, drifts from the
+original, and doubles maintenance. Only re-implement with a very good reason (the existing one is
+wrong, deprecated, or a dependency you must not take) — and state that reason where you do it.
+
 ## Use code, not the model, when code suffices
 
 If a task is deterministic — parsing, transforming, routing, retries, sorting, validation — write code. Don't invoke the model for work that code does better and more reliably. Regex over LLM-call when regex fits.
